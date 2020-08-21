@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+header {
+    display: flex;
+    justify-content: space-between;
+ }
+
+nav {
+    display: inline;
+
+}
+.titulo{
+    Color: rgb(65, 63, 63);
+    letter-spacing: 2px;   
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.subtitulo{
+    Color:grey;
+    text-align: center;
+    font-size: 30px;
+
+    }
+.subtitulo1{
+        Color:grey;
+        text-align: center;    
+        font-size: 45px;
+}
+
+td{
+    color: tomato;
+}
+ol{
+    Color:rgb(94, 91, 88)
+    }
+body {
+    font-family: "exo";
+  
+}
+
+.line-trought {
+    text-decoration: line-through;
+    Color: rgb(240, 24, 24)}
+
+.precio-actual {
+    Color: rgb(9, 77, 9);
+    font-size:30px;
+    letter-spacing: 2px;
+    line-height: 1.6
+}
+
+.contenedor {
+    font-size: .1 em;
+    list-style-type: none;
+    text-align: center;
+}
+.show-desktop-hide-desktop{
+    Top: 10px;
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+
+}
+.menu {
+    width: 5%;
+    display: inline;
+    float: right;
+}
+
+.im-p {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+
+}
+.diucon-led-logo {
+    width: 50%;
+}
+
+.wpweb{
+    width: 5%;
+    position: fixed;
+    top: 50px
+    left:1700px;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+li {
+    display: inline;
+    padding: 10px;
+    top: 30px;
+  
+    
+}
+.im1 {
+    height: 10%;
+}
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#grid {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"    
+    "section section section section"
+    "transform transform transform transform"
+    "footer footer footer footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+
+    justify-content: center;
+
+}
+header {
+    grid-area:header;
+    border: 1px solid black;
+}
+section {
+    grid-area: contenido;
+    border: 1px solid black;
+}
+footer {
+    grid-area: footer;
+    border: 1px solid black;
+}
+/*
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: all 0.1s;
+}
+.transform:hover {
+    transform: skew(40deg);
+    background-color: blue;
+
+}*/
+
+/*
+.Nombre {
+    font-size: 20px;
+}
+.Nombre:focus{
+    font-size: 50px;
+
+}*/
+
+.decoled {
+    transition: all 0.2s;
+}
+.decoled:hover {
+    transform:scale(1.2)
+
+}
+.interior1 {
+    transition: all 0.2s;
+}
+.interior1:hover {
+    transform:scale(1.2)
+
+}
+.vigilancia {
+    transition: all 0.2s;
+}
+.vigilancia:hover {
+    transform:scale(1.2)
+
+}
+.gadgets {
+    transition: all 0.2s;
+}
+.gadgets:hover {
+    transform:scale(1.2)
+
+}
